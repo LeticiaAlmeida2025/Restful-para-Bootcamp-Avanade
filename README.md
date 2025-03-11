@@ -5,7 +5,7 @@ Java RESTful API criada para o Bootcamp Avanade 2025.
 
 ...mermaid
 classDiagram
-    class Client {
+    class Matricula {
         +String name
         +Account account
         +Feature[] features
@@ -14,8 +14,8 @@ classDiagram
     }
 
     class Account {
-        +String client
-        +String credit
+        +String matricula
+        +String bonus
         +String debt
     }
 
